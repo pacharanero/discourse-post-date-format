@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: A theme component which allows a selection of alternative formats
+      for the date-time display in a post
+    settings:
+      example_setting: A description of a setting.
