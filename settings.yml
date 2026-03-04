@@ -1,2 +1,4 @@
-example_setting:
-  default: true
+post_timestamp_editor_allowed_groups:
+  default: ""
+  type: list
+  description: "UI allowlist for showing/enabling timestamp-edit controls in addition to admins. Use a comma-separated list of group names. Note: Discourse core still enforces server-side permissions; allowing non-staff users requires a plugin."
