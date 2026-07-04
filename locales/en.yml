@@ -1,6 +1,6 @@
 en:
   theme_metadata:
-    description: A theme component which allows a selection of alternative formats
-      for the date-time display in a post
+    description: A theme component which allows a selection of alternative formats for the date-time display in a post
     settings:
-      example_setting: A description of a setting.
+      date_format_option: "Choose how post dates are displayed: 'full' for complete date/time, 'short' for a condensed format, 'custom' to use your own format, or 'none' to hide dates entirely."
+      custom_date_format: "Custom date format using Moment.js syntax (only used when date_format_option is set to 'custom'). Examples: 'DD/MM/YYYY', 'MMMM Do YYYY', 'DD-MM-YYYY HH:mm'"

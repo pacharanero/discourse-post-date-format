@@ -1,4 +1,14 @@
-post_timestamp_editor_allowed_groups:
-  default: ""
-  type: list
-  description: "UI allowlist for showing/enabling timestamp-edit controls in addition to admins. Use a comma-separated list of group names. Note: Discourse core still enforces server-side permissions; allowing non-staff users requires a plugin."
+date_format_option:
+  default: "full"
+  type: enum
+  choices:
+    - full
+    - short
+    - custom
+    - none
+  description: "Choose how post dates are displayed: 'full' for complete date/time, 'short' for a condensed format, 'custom' to use your own format, or 'none' to hide dates entirely."
+
+custom_date_format:
+  default: "DD MMMM YYYY, HH:mm"
+  type: string
+  description: "Custom date format using Moment.js syntax (only used when date_format_option is set to 'custom'). Examples: 'DD/MM/YYYY', 'MMMM Do YYYY', 'DD-MM-YYYY HH:mm'"
